@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>IisConfiguration</id>
+        <version>$version$</version>
+        <authors>Totaljobs Group Developers</authors>
+        <owners>Totaljobs Group Developers</owners>
+        <licenseUrl>https://github.com/yetanotherchris/IisConfiguration/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/yetanotherchris/IisConfiguration/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A fluent .NET library for automating site and app pool creation in IIS7+.</description>
+        <releaseNotes></releaseNotes>
+        <tags>iis configuration config</tags>
+        <dependencies />
+    </metadata>
+</package>
