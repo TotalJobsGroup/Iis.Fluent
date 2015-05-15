@@ -2,6 +2,7 @@
 <package >
     <metadata>
         <id>IisConfiguration</id>
+		<title>IisConfiguration</title>
         <version>$version$</version>
         <authors>Totaljobs Group Developers</authors>
         <owners>Totaljobs Group Developers</owners>
@@ -9,7 +10,7 @@
         <projectUrl>https://github.com/yetanotherchris/IisConfiguration/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>A fluent .NET library for automating site and app pool creation in IIS7+.</description>
-        <releaseNotes></releaseNotes>
+        <releaseNotes>Initial release</releaseNotes>
         <tags>iis configuration config</tags>
         <dependencies />
     </metadata>
