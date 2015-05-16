@@ -67,7 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <Content Include="iisconfiguration.pfx">
+    <Content Include="IisConfiguration.pfx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="packages.config" />
