@@ -1,4 +1,5 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/ej34y5wtjfxr8w7m/branch/master?svg=true)](https://ci.appveyor.com/project/Workshop2/iisconfiguration/branch/master)
+[![Version](https://img.shields.io/nuget/v/IisConfiguration.svg?style=flat)](https://www.nuget.org/packages/IisConfiguration)
 
 # IisConfiguration
 IisConfiguration is a .NET library for automating site and app pool creation in IIS. It adds a fluent interface on top of the existing Microsoft.Web.Administration namespace to simplify the creation of things like:
