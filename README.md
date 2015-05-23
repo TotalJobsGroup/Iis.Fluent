@@ -11,7 +11,7 @@ The library is intended to be used inside a console application, which you can t
 
 ## Example usage
 
-This example creates two sites: a web site, and a service site (for your website to call a RESTful or WCF service).
+This example creates two sites: a web site, and a service site (for your website to call a web api or WCF service). It also adds an SSL binding for the website, using the SSL certificate path and private key password you provide in the app.config file.
 
     using System;
     using System.IO;
@@ -62,7 +62,7 @@ This example creates two sites: a web site, and a service site (for your website
     
     	        serverConfig
                     .AddSite(SiteName, webPort, webPort)
-                    .WithSecurePort(webPortSsl, envConfig.SslJobseekerPlatform, envConfig.SslPassword)
+                    .WithSecurePort(webPortSsl, envConfig.SslPfxPath, envConfig.SslPassword)
                     .AddApplication("/", envConfig.WebRoot, SiteName)
     	            .WithLogging(false)
     	            .Commit();

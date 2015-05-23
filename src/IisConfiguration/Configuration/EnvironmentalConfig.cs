@@ -24,25 +24,13 @@ namespace IisConfiguration.Configuration
 		}
 
 		/// <summary>
-		/// Gets the 'ServiceRoot' key, the folder path for the WCF service path (if any). {src-path} will be replace with the closest directory called 'src' when in development.
+		/// Gets the 'ServiceRoot' key, the folder path for the web API/WCF service path (if any). {src-path} will be replace with the closest directory called 'src' when in development.
 		/// </summary>
 		public virtual string ServiceRoot
 		{
 			get
 			{
 				string root = ConfigurationManager.AppSettings["ServiceRoot"];
-				return FormatDirectory(root);
-			}
-		}
-
-		/// <summary>
-		/// Gets the 'ApiRoot' key, the folder path for the api path. {src-path} will be replace with the closest directory called 'src' when in development.
-		/// </summary>
-		public virtual string ApiRoot
-		{
-			get
-			{
-				string root = ConfigurationManager.AppSettings["ApiRoot"];
 				return FormatDirectory(root);
 			}
 		}
@@ -86,11 +74,11 @@ namespace IisConfiguration.Configuration
 		}
 
 		/// <summary>
-		/// Gets the 'SslJobseekerPlatform' from the configuration, which is the path to the SSL key.
+		/// Gets the 'SslPfxPath' from the configuration, which is the path to the SSL key.
 		/// </summary>
-		public virtual string SslJobseekerPlatform
+		public virtual string SslPfxPath
 		{
-			get { return ConfigurationManager.AppSettings["SslJobseekerPlatform"]; }
+			get { return ConfigurationManager.AppSettings["SslPfxPath"]; }
 		}
 
 		/// <summary>
