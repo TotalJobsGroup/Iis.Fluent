@@ -89,15 +89,15 @@ This example creates two sites: a web site, and a service site (for your website
 
 IISConfiguration also expects an app.config file, to read its settings from. The keys it expects are mapped directly to the property names you find in the `EnvironmentalConfig` class. Here is a basic example:
 
-<?xml version="1.0"?>
-<configuration>
-    <appSettings>
-        <add key="WebRoot" value="C:\Code\MySite"/>
-        <add key="ServiceRoot" value="C:\Code\MyService/>
-
-        <!-- app pool settings to make debugging easier -->
-        <add key="PingingEnabled" value="false"/>
-        <add key="IdleTimeout" value="00:20:00"/>
-    </appSettings>
-</configuration>
+    <?xml version="1.0"?>
+    <configuration>
+        <appSettings>
+            <add key="WebRoot" value="C:\Code\MySite"/>
+            <add key="ServiceRoot" value="C:\Code\MyService/>
+    
+            <!-- app pool settings to make debugging easier -->
+            <add key="PingingEnabled" value="false"/>
+            <add key="IdleTimeout" value="00:20:00"/>
+        </appSettings>
+    </configuration>
 
